@@ -51,7 +51,15 @@ ul {
     font-size: 21px;
 }
 
+footer {
+    padding-top: 40px;
+}
+
 /*Classes*/
+
+.abajo {
+    padding-top: 30px;
+}
 
 .center {
     text-align: center;
@@ -84,6 +92,11 @@ ul {
     height: 100%;
     position: relative;
     left: 7%;
+}
+
+img.unify {
+    height: 140px;
+    width: auto;
 }
 
 /* IDs */
