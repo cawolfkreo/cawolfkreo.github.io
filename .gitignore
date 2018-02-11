@@ -1,2 +1,7 @@
 #configuracion de VScode:
 settings.json
+/.vscode
+
+#configuracion de eslint:
+.eslintrc.json
+.eslintrc.js

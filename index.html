@@ -1,171 +1,237 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
+
 <head>
     <!--Meta tags-->
     <meta charset="utf-8" />
-    <meta name="description" content="This is the curriculum vitae website of the computer engineer student Camilo Zambrano" />
+    <meta name="description" content="This is the curriculum vitae website of the computer engineer student Camilo Zambrano"
+    />
     <meta name="keywords" content="cv,curriculum vitae, computer engineer" />
     <meta name="author" content="Camilo Zambrano Votto" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--Target of all links-->
     <base target="_blank">
-    
+
     <!--Title and Favicon-->
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <title>Camilo Zambrano</title>
 
     <!--Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Patua+One" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+
     <!--styles-->
-    <link href="styles/style.css" rel="stylesheet" type="text/css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
 
 </head>
+
 <body>
 
     <!--nav-->
-    <nav>
-        <a href="#myDescription" target="_self">About Me</a>
-        <a href="#skills" target="_self">Skills</a>
-        <a href="#hobbies" target="_self">Hobbies</a>
-        <a href="#contact" target="_self">Contact Me</a>
+    <nav class="navbar navbar-expand-sm fixed-top navbar-light bg-light">
+        <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#collapseNavbar" aria-controls="collapseNavbar"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a id="nav-eso" class="navbar-brand" href="#me" target="_self">Camilo Zambrano</a>
+
+        <!-- The contents of the navbar -->
+        <div class="collapse navbar-collapse" id="collapseNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#myDescription" target="_self">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills" target="_self">Skills</a>
+                </li class="nav-item">
+                <li>
+                    <a class="nav-link" href="#hobbies" target="_self">Hobbies</a>
+                </li class="nav-item">
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" target="_self">Contact Me</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <!--Image and name-->
-    <div id="me">
-        <h1 class="center"><img class="round-image" src="images/my-picture.jpg" title="Camilo's picture" alt="This is the picture of Camilo Zambrano, his face is standing infront of the picture, on the background there is some plants visible" width="263">
+    <div class="" id="me">
+        <h1 class="center">
+            <img class="round-image" src="images/my-picture.jpg" title="Camilo's picture" alt="This is the picture of Camilo Zambrano, his face is standing infront of the picture, on the background there is some plants visible"
+                width="263">
             <br />Camilo Zambrano Votto
         </h1>
     </div>
 
     <!--My description-->
-  <div id="myDescription">
-      <h2>Who Am I?</h2>
-        <h4>My name is Camilo Zambrano Votto</h4><!--hola! soy Gokú....-->
-      <p>
-          I'm a 20 year old student currently studying in the <a href="https://uniandes.edu.co/es" >University of <em>Los Andes</em></a>. I live in Bogotá, Colombia. I want to learn a variety of skills, for example: Web development and video game development. <br />
-          <br />
-          I love to learn anything around computers and mostly anything related with game development.
-      </p>
-  </div>  
-  
-  <!--SKills-->
-  <div id="skills">
-      <h2>Skills</h2>
-      <!--Coding-->
-      <h3>Code skills</h3>
-      <ul>
-          <li>Java 10/12</li>
-          <li>Matlab 8/12</li>
-          <li>Brainfuck 7/12</li>
-          <li>javascript 6/12</li>
-          <li>Unity 6/12</li>
-          <li>css 5/12</li>
-          <li>SQL 5/12</li>
-          <li>C# 4/12</li>
-          <li>C 3/12</li>
-          <li>haskell 2/12</li>
-      </ul>
-      <!--languages-->
-      <h3>Human Languages</h3>
-      <ul>
-          <li>I am a spanish native speaker.</li>
-          <li>I am fluent in english. I also got a PET accreditation back in 2012.</li>
-      </ul>
-      <!--the other skills I have-->
-      <h3>Other Skills</h3>
-      <ul>
-          <li>I'm ready to work in group projects.</li>
-          <li>I'm eager to learn anything close to computers and code.</li>
-          <li>I am autonomous with my learning process.</li>
-      </ul>
-  </div>
+    <div class="" id="myDescription">
+        <h2>Who Am I?</h2>
+        <h4>My name is Camilo Zambrano Votto</h4>
+        <!--hola! soy Gokú....-->
+        <p>
+            I'm a 20 year old student currently studying in the
+            <a href="https://uniandes.edu.co/es">University of
+                <em>Los Andes</em>
+            </a>. I live in Bogotá, Colombia. I want to learn a variety of skills, for example: Web development and video game
+            development.
+            <br />
+            <br /> I love to learn anything around computers and mostly anything related with game development.
+        </p>
+    </div>
 
-  <!--Projects-->
-   <div id="projects">
-      <h2>Projects And Things I Did</h2>
-      <!--projects-->
-      <h3>Projects:</h3>
-      <ul>
-          <li>
-              <div class="image-crop">
-                  <img class="filler" src="images/videogame-background.png" alt="pixel art image." title="background of my game" >
+    <!--SKills-->
+    <div class="" id="skills">
+        <h2>Skills</h2>
+        <!--Coding-->
+        <h3>Code skills</h3>
+        <ul>
+            <li>Java 10/12</li>
+            <li>Matlab 8/12</li>
+            <li>Brainfuck 7/12</li>
+            <li>javascript 6/12</li>
+            <li>Unity 6/12</li>
+            <li>css 5/12</li>
+            <li>SQL 5/12</li>
+            <li>C# 4/12</li>
+            <li>C 3/12</li>
+            <li>haskell 2/12</li>
+        </ul>
+        <!--languages-->
+        <h3>Human Languages</h3>
+        <ul>
+            <li>I am a spanish native speaker.</li>
+            <li>I am fluent in english. I also got a PET accreditation back in 2012.</li>
+        </ul>
+        <!--the other skills I have-->
+        <h3>Other Skills</h3>
+        <ul>
+            <li>I'm ready to work in group projects.</li>
+            <li>I'm eager to learn anything close to computers and code.</li>
+            <li>I am autonomous with my learning process.</li>
+        </ul>
+    </div>
+
+    <!--Projects-->
+    <div class="" id="projects">
+        <h2>Projects And Things I Did</h2>
+        <!--projects-->
+        <h3>Projects:</h3>
+        <ul>
+            <li>
+                <div class="image-crop">
+                    <img class="filler" src="images/videogame-background.png" alt="pixel art image." title="background of my game" />
                 </div>
-              <p><b>videogame: survivor of the wasteland</b><br />
-              I made this game on a 24 hours gamejam, you can check it <a href="https://github.com/cawolfkreo/gamejam2017-survivor" >here.</a></p>
-          </li>
-          <li>
-              <div class="image-crop">
-                  <img class="filler" src="images/brainfuck-logo-edit.png" alt="a logo of brainfuck with square brackets, a plus and a dot between the brackets" title="brainfuck logo" >
-              </div>
-              <p><b>BrainF%$k</b><br />
-              I found this esolang some time ago. I enjoy doing things with it. If you want to, check it <a href="https://github.com/cawolfkreo/bf-codes" >here.</a></p><!--dis is da wei, da wei of Ugandan people-->
-          </li>
-          <li>
-              <div class="image-crop">
-                <img class="filler-partial" src="images/uniandes-logo.png" alt="the logo of the university of los andes, it has a tree in the middle and a shield around it." title="uniandes logo" >
-            </div>
-                <p><b>School projects</b><br />
-                different projects in the classes I've taken in university, including transactional systems, software architecture and innovation in IT</p>
-          </li>
-      </ul>
-      <h3>Other Things:</h3>
-      <ul>
-          <li>
-                <img src="images/logo-giessen-university.png" alt="the logo of the university of Giessen" title="logo university of Giessen" >
-                <p><b>Summer school:</b><br />
-                In summer 2017 I went to a summer school in <a href="https://www.uni-giessen.de/international-pages/international-study/isu" >Giessen, Germany.</a> The course was taught by the university of Giessen. The summer school was a good improvement for my english skills, I had to use english all the time.</p>
-          </li>
-      </ul>
-      </div>
+                <p>
+                    <b>videogame: survivor of the wasteland</b>
+                    <br /> I made this game on a 24 hours gamejam, you can check it
+                    <a href="https://github.com/cawolfkreo/gamejam2017-survivor">here.</a>
+                </p>
+            </li>
+            <li>
+                <div class="image-crop">
+                    <img class="filler" src="images/brainfuck-logo-edit.png" alt="a logo of brainfuck with square brackets, a plus and a dot between the brackets"
+                        title="brainfuck logo">
+                </div>
+                <p>
+                    <b>BrainF%$k</b>
+                    <br /> I found this esolang some time ago. I enjoy doing things with it. If you want to, check it
+                    <a href="https://github.com/cawolfkreo/bf-codes">here.</a>
+                </p>
+                <!--dis is da wei, da wei of Ugandan people-->
+            </li>
+            <li>
+                <div class="image-crop">
+                    <img class="filler-partial" src="images/uniandes-logo.png" alt="the logo of the university of los andes, it has a tree in the middle and a shield around it."
+                        title="uniandes logo">
+                </div>
+                <p>
+                    <b>School projects</b>
+                    <br /> different projects in the classes I've taken in university, including transactional systems, software
+                    architecture and innovation in IT</p>
+            </li>
+        </ul>
+        <h3>Other Things:</h3>
+        <ul>
+            <li>
+                <img src="images/logo-giessen-university.png" alt="the logo of the university of Giessen" title="logo university of Giessen">
+                <p>
+                    <b>Summer school:</b>
+                    <br /> In summer 2017 I went to a summer school in
+                    <a href="https://www.uni-giessen.de/international-pages/international-study/isu">Giessen, Germany.</a> The course was taught by the university of Giessen. The summer school was a good
+                    improvement for my english skills, I had to use english all the time.</p>
+            </li>
+        </ul>
+    </div>
 
-  <!--Hobbies-->
-  <div id="hobbies">
+    <!--Hobbies-->
+    <div class="" id="hobbies">
         <h2>Things I love</h2>
         <ul>
             <li>
-                <a href="https://www.scout.org/" ><img src="images/scouts-logo.png" alt="The knot and felur de lis, symbols representatives of scouting" title="Logo scouting" width="100"/></a>
-                <p><b>Scouting:</b><br />
-                I joined the <a href="https://www.scout.org/" >World Organization of the Scout Movement</a> some time ago with the group 92 in Bogotá,Colombia. Thanks to the time I spent in the movement I'm used to working with different people from different backgrounds.</p>
-                </li>
+                <a href="https://www.scout.org/">
+                    <img src="images/scouts-logo.png" alt="The knot and felur de lis, symbols representatives of scouting" title="Logo scouting"
+                        width="100" />
+                </a>
+                <p>
+                    <b>Scouting:</b>
+                    <br /> I joined the
+                    <a href="https://www.scout.org/">World Organization of the Scout Movement</a> some time ago with the group 92 in Bogotá,Colombia. Thanks
+                    to the time I spent in the movement I'm used to working with different people from different backgrounds.</p>
+            </li>
             <li>
-                <img src="images/videogames.png" alt="an image of a generic controller for videogames" title="Videogame controller" width="100" />
-                <p><b>Videogames:</b><br />
-                Videogames are my passion. There is a lot I want to learn about them and their development.</p>
+                <img src="images/videogames.png" alt="an image of a generic controller for videogames" title="Videogame controller" width="100"
+                />
+                <p>
+                    <b>Videogames:</b>
+                    <br /> Videogames are my passion. There is a lot I want to learn about them and their development.</p>
             </li>
         </ul>
-  </div>
+    </div>
 
     <!--Contact information-->
-  <div id="contact">
-      <h2>Contact Information</h2>
-      <p>You can find my personal emails below, as well as my github. Just click on the pictures</p>
-      <div>
+    <div class="" id="contact">
+        <h2>Contact Information</h2>
+        <p>You can find my personal emails below, as well as my github. Just click on the pictures</p>
+        <div>
             <ul>
                 <li>
-                    <a href="mailto:camilozambranov@gmail.com" >
+                    <a href="mailto:camilozambranov@gmail.com">
                         <img src="images/gmail-logo.png" alt="the logo of google email service" title="Gmail logo" width="80" />
                     </a>
                 </li>
                 <li>
-                    <a href="mailto:camilozambranovotto@hotmail.com" >
+                    <a href="mailto:camilozambranovotto@hotmail.com">
                         <img src="images/outlook-logo.png" alt="the logo of outlook email service" title="outlook logo" width="80" />
-                    </a>          
+                    </a>
                 </li>
                 <li>
-                    <a href="https://github.com/cawolfkreo" >
-                        <img src="images/github-logo.png" alt="the logo of github, a mix between a cat and an octopus" title="github logo" width="80" />
-                    </a>          
+                    <a href="https://github.com/cawolfkreo">
+                        <img src="images/github-logo.png" alt="the logo of github, a mix between a cat and an octopus" title="github logo" width="80"
+                        />
+                    </a>
                 </li>
             </ul>
-      </div>
-  </div>
+        </div>
+    </div>
 
-  <!--copyright information-->
-  <footer id="copyright">
-      <p class="center">© Camilo Zambrano Votto<br />2018 </p>
-  </footer>
+    <!--copyright information-->
+    <footer id="copyright">
+        <p class="center">© Camilo Zambrano Votto
+            <br />2018 </p>
+    </footer>
+
+    <!-- Scripts for the webpage -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>
 </body>
+
 </html>

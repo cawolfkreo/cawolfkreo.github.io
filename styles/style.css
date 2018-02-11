@@ -1,8 +1,11 @@
+/*Tags*/
+
 body  {
     font-family: 'PT Sans', sans-serif; /* Fuente de google para párrafos. */
     margin-left: 3.125em;
     margin-right: 3.125em;
     text-align: justify;
+    padding-top: 70px;      /*navbar won't overlap with body when the page is loaded */
 }
 
 nav {
@@ -12,10 +15,6 @@ nav {
 h1 {
     font-family: 'Patua One', cursive, sans-serif; /* Fuente de google para los encabezados. */
     font-size: 3em;
-}
-
-h1 img {
-    margin-top: 15px;  /*This way the nav bar doesn't overlap with the picture. */
 }
 
 
@@ -52,6 +51,7 @@ ul {
     font-size: 21px;
 }
 
+/*Classes*/
 
 .center {
     text-align: center;
@@ -86,22 +86,9 @@ ul {
     left: 7%;
 }
 
-/*TODO: move this once the navbar is done*/
-nav a{
-    float: left;
-    width: 90px;
-    display: block;
-    padding: 8px;
-    text-align: center;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-}
+/* IDs */
 
-nav {
-    overflow: hidden;
-    position: fixed;
-    background-color: #c5c5c5ec;
-    top: 0;
-    left: 0;
-    width: 100%;
+#nav-eso {
+    font-family: 'Patua One', cursive, sans-serif; /* Fuente de google para los encabezados. */
+    color: rgb(15, 113, 194);
 }
