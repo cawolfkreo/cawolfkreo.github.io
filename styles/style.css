@@ -70,6 +70,11 @@ footer {
     text-align: center;
 }
 
+.content {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
 .round-image {
     border-radius: 50%;      /*Imagen circular al poner el radio al 50% */
 }
