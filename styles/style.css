@@ -2,6 +2,7 @@
 
 body  {
     font-family: 'PT Sans', sans-serif; /* Fuente de google para párrafos. */
+    margin-left: 4vw;
     margin-right: 4vw;
     text-align: justify;
     padding-top: 70px;      /*navbar won't overlap with body when the page is loaded */
