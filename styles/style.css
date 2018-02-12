@@ -14,7 +14,7 @@ nav {
 
 h1 {
     font-family: 'Patua One', cursive, sans-serif; /* Fuente de google para los encabezados. */
-    font-size: 48px;
+    font-size: 3em;
 }
 
 
@@ -71,8 +71,8 @@ footer {
 }
 
 .content {
-    margin-top: 70px;
-    margin-bottom: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .round-image {
