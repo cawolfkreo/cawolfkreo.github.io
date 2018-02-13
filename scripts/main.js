@@ -1,5 +1,5 @@
 "use strict";
-var x;
+var x, z;
 //never run this function, just ignore it's existence
 function algo() {
   var x = 2, i;
@@ -10,13 +10,15 @@ function algo() {
   }
   return x;
 }
-function change(something){
+function change(something) {
   var check = isNaN(something);
-  if(check){
+  if (check) {
     something = 42; //the answer to everything O:
   }
   return something;
 }
-x=algo();
-x=change(x);
-x++;       //not 42 anymore :C
+x = algo();
+x = change(x);
+x++;       //not 42 anymore
+z = x + 35;
+console.log(z + 3);

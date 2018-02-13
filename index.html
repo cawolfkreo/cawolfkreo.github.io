@@ -16,7 +16,7 @@
 
     <!--Title and Favicon-->
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <title>Camilo Zambrano</title>
+    <title>Camilo Zambrano's personal website</title>
 
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=PT+Sans%7CPacifico%7CPatua+One" rel="stylesheet">
@@ -28,7 +28,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="43">
 
     <!--nav-->
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
@@ -48,8 +48,8 @@
                     <a class="nav-link" href="#skills" target="_self">Skills</a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="#projects" target="_self">Projects</a>
-                    </li>
+                    <a class="nav-link" href="#projects" target="_self">Projects</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#hobbies" target="_self">Hobbies</a>
                 </li>
@@ -78,9 +78,9 @@
             I am a twenty year old student at the
             <a href="https://uniandes.edu.co/es">University of
                 <em>Los Andes</em>
-            </a>and reside in Bogotá, Colombia. I am interested in web and video game
-            develpoment and plan on furthering my skills in both areas. I have a great passion 
-            and zest for anything related to both fields.
+            </a>
+            and reside in Bogotá, Colombia. I am interested in web and video game develpoment and plan on furthering my skills in both
+            areas. I have a great passion and zest for anything related to both fields.
         </p>
     </div>
 
@@ -90,7 +90,21 @@
         <!--Coding-->
         <h3>Code skills</h3>
         <ul>
-            <li>Java 10/12</li>
+            <li>
+                Java 10/12
+                <div class="barra-progreso"></div>
+                <div class="barra-progreso"></div>
+                <div class="barra-progreso"></div>
+                <div class="barra-progreso"></div>
+                <div class="barra-progreso"></div>
+                <div class="barra-progreso"></div>
+                <div class="barra-progreso"></div>
+                <div class="barra-progreso"></div>
+                <div class="barra-progreso"></div>
+                <div class="barra-progreso"></div>
+                <div class="barra-progreso"></div>
+                <div class="barra-progreso"></div>
+            </li>
             <li>Matlab 8/12</li>
             <li>Brainfuck 7/12</li>
             <li>javascript 6/12</li>
@@ -102,83 +116,109 @@
             <li>haskell 2/12</li>
         </ul>
         <!--languages-->
-        <h3>Languages I am fluent in</h3>
-        <ul>
-            <li>Spanish is my native tongue.</li>
-            <li>I am fluent in english, and I hold a PET accreditation obtained in 2012.</li>
-        </ul>
-        <!--the other skills I have-->
-        <h3>Other Skills</h3>
-        <ul>
-            <li>I am a wonderful team player and work well in group projects.</li>
-            <li>I am an autonomous learner and easily adapt to skills related to computer and coding.</li>
-        </ul>
+        <div class="row justify-content-center" id="languages">
+            <div class="col-sm-6 abajo">
+                <h3>Languages I am fluent in</h3>
+                <ul class="list-unstyled center">
+                    <li>
+
+                        <img class="rounded bandera" src="images/spain.png" alt="The flag of spain" title="spanish">
+                        <br /> Spanish is my native tongue.
+                    </li>
+                    <li>
+                        <img class="rounded bandera" src="images/uk.png" alt="The flag of the uk" title="English">
+                        <br />I am fluent in english, and I hold a PET accreditation obtained in 2012.
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6 abajo">
+                <!--the other skills I have-->
+                <h3>Other Skills</h3>
+                <ul class="list-unstyled center">
+                    <li>
+                        <img class="rounded skill-images" src="images/teamwork.png" alt="3 persons standing up and holding their hands up" title="teamwork">
+                        <br /> I am a wonderful team player and work well in group projects.
+                    </li>
+                    <li>
+                        <img class="rounded skill-images" src="images/learn.png" alt="a microscope representing learning" title="learning">
+                        <br>I am an autonomous learner and easily adapt to skills related to computer and coding.</li>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <!--Projects-->
     <div class="content" id="projects">
         <h2>Projects And Things I Did</h2>
         <!--projects-->
-        <h3>Projects:</h3>
-        <ul>
-            <li>
+        <h3>Projects</h3>
+        <div class="row justify-content-center abajo">
+            <div class="col-sm-4 center">
                 <div class="image-crop">
                     <img class="filler" src="images/videogame-background.png" alt="pixel art image." title="background of my game" />
                 </div>
+                <p class="center">
+                    <b>Video game: survivor of the wasteland</b>
+                </p>
                 <p>
-                    <b>videogame: survivor of the wasteland</b>
-                    <br /> I made this game on a 24 hour gamejam, you can check out it
+                    I made this game on a 24 hour gamejam, you can check out it
                     <a href="https://github.com/cawolfkreo/gamejam2017-survivor">here.</a>
                 </p>
-            </li>
-            <li>
+            </div>
+            <div class="col-sm-4 center">
                 <div class="image-crop">
                     <img class="filler" src="images/brainfuck-logo-edit.png" alt="a logo of brainfuck with square brackets, a plus and a dot between the brackets"
                         title="brainfuck logo">
                 </div>
-                <p>
+                <p class="center">
                     <b>BrainF%$k</b>
-                    <br /> I found this horrible esolang some time ago. If you want to, check out some things I did with it, you can go
+                </p>
+                <p>
+                    I found this horrible esolang some time ago. If you want to, check out some things I did with it, you can go
                     <a href="https://github.com/cawolfkreo/bf-codes">here.</a>
                 </p>
                 <!--dis is da wei, da wei of Ugandan people-->
-            </li>
-            <li>
+            </div>
+            <div class="col-sm-4 center">
                 <div class="image-crop">
                     <img class="filler-partial" src="images/uniandes-logo.png" alt="the logo of the university of los andes, it has a tree in the middle and a shield around it."
                         title="uniandes logo">
                 </div>
-                <p>
+                <p class="center">
                     <b>School projects</b>
-                    <br />
-                    In school I have made some projects related to:
-                    <ul>
+                </p>
+                <p>
+                    In school I have made some other projects related to:
+                    <ul class="list-unstyled center">
                         <li>Transactional systems.</li>
                         <li>Software architecture.</li>
                         <li>IT innovation.</li>
                     </ul>
                 </p>
-            </li>
-        </ul>
-        <h3>Other Things:</h3>
-        <ul>
-            <li>
-                <img src="images/logo-giessen-university.png" alt="the logo of the university of Giessen" title="logo university of Giessen">
-                <p>
-                    <b>Summer school:</b>
-                    <br /> In summer 2017 I went to a summer school in
-                    <a href="https://www.uni-giessen.de/international-pages/international-study/isu">Giessen, Germany</a> and studied biotech and laws and taught in the university of Giessen. 
-                    There, I improved my English skills as I had to use English all the time.
+            </div>
+        </div>
+        <!-- Other projects or interesting things I did -->
+        <h3>Other Things</h3>
+        <div class="row justify-content-center abajo">
+            <div class="col-sm-8 center">
+                <img class="rectangle" src="images/logo-giessen-university.png" alt="the logo of the university of Giessen" title="logo university of Giessen">
+                <p class="center">
+                    <b>Summer school 2017, biotech and laws</b>
                 </p>
-            </li>
-        </ul>
+                <p>
+                    In summer 2017 I went to a summer school in
+                    <a href="https://www.uni-giessen.de/international-pages/international-study/isu">Giessen, Germany</a> and studied biotech and laws and taught in the university of Giessen. There, I improved
+                    my English skills as I had to use English all the time.
+                </p>
+            </div>
+        </div>
     </div>
 
     <!--Hobbies-->
     <div class="content" id="hobbies">
         <h2>Things I love</h2>
-        <div class="row">
-            <div class="col-sm-6 center abajo">
+        <div class="row abajo">
+            <div class="col-sm-6 center">
                 <a href="https://www.scout.org/">
                     <img class="unify" src="images/scouts-logo.png" alt="The knot and fleur de lis, symbols representatives of scouting" title="Logo scouting"
                         width="100" />
@@ -191,7 +231,7 @@
                     <a href="https://www.scout.org/">World Organization of the Scout Movement</a> some time ago with the group 92 in Bogotá, Colombia. Thanks
                     to the time I spent in the movement I'm used to working with people from various backgrounds.</p>
             </div>
-            <div class="col-sm-6 center abajo">
+            <div class="col-sm-6 center ">
                 <img class="unify" src="images/videogames.png" alt="an image of a generic controller for videogames" title="Videogame controller"
                     width="100" />
                 <p class="center">
@@ -208,6 +248,7 @@
     <div class="content" id="contact">
         <h2>Contact Information</h2>
         <p class="center">You can find my personal emails below, as well as my github. Just click on the pictures</p>
+        <!-- all my emails and my github -->
         <div class="row">
             <div class="col-4 center">
                 <a href="mailto:camilozambranov@gmail.com">
