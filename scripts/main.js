@@ -2,7 +2,6 @@
 /* global $ */
 var frame = 1, elIntervalo;
 console.log(frame+elIntervalo); //sin esto ESlint cree que nunca se usa la variable frame e intervalo.
-console.clear();
 
 var animarFavicon = function () {
   //Funcion para mantener en animacion constante el favicon de la pagina.
