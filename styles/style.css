@@ -2,8 +2,8 @@
 
 body  {
     font-family: 'PT Sans', sans-serif; /* Fuente de google para párrafos. */
-    margin-left: 4vw;
-    margin-right: 4vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
     text-align: justify;
     padding-top: 70px;      /*navbar won't overlap with body when the page is loaded */
 }
@@ -161,4 +161,23 @@ img.skill-images {
 #nav-eso {
     font-family: 'Pacifico', cursive;
     color: rgb(15, 113, 194);
+}
+
+#me {
+    background: rgb(43, 43, 43); /*the background behind the div on my picture*/
+    color: rgb(255, 255, 255);
+    width: 100vw;
+    position: relative;
+    /*Trick to make the bacground fill the whole width*/
+    left: 50%;
+    margin-left: -50vw;
+    padding-bottom: 20vh;
+}
+
+#me img {
+    /*this changes the size of my photo*/
+    width: auto;
+    height: 40vh;
+    margin: auto;
+    margin-bottom: 3vh;
 }
