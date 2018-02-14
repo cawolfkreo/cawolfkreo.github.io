@@ -63,7 +63,13 @@ footer {
 /*Classes*/
 
 .abajo {
-    padding-top: 30px;
+    padding-top: 30px; /*Pone las cosas "más abajo", creando un poco de espacio blanco arriba del contenido.*/
+}
+
+.active {
+    background-color: rgba(13, 40, 158, 0.87) !important;
+    color: rgb(233, 233, 233) !important; /*Makes sure active elements have this text color 
+                                            and background without bootstrap.css messing with it.*/
 }
 
 .center {
@@ -107,16 +113,32 @@ footer {
     position: relative;
     left: 0%;
 }
-
+/*size of the bars that make up the 'progress bar'. */
 div.barra-progreso {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 0;  /*sets the position of all of these divs*/
-    height: 10px; /*in all screen sizes this is needed*/
-    width: 3vw;
+    position: relative;
+    display: inline-block;
+    width: 7.72%;
+    height: 15px;
+    margin-right: -2px;
+}
+/*green color as background for the 'progress bar'*/
+div.green{
+    background: rgb(1, 214, 48);
+}
+
+/*yellow color as background for the 'progress bar'*/
+div.yellow{
+    background: rgb(235, 231, 29);
+}
+
+/*red color as background for the 'progress bar'*/
+div.red{
+    background: rgb(224, 30, 30);
+}
+
+/*grey color as background for the 'progress bar'*/
+div.grey{
+    background: rgb(80, 80, 80);
 }
 
 img.unify {
