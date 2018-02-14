@@ -9,7 +9,7 @@ var animarFavicon = function () {
   var ruta;
   /* Assignacion del frame a desplegar */
   window.frame = ++window.frame;
-  if (window.frame > 4) {
+  if (window.frame > 5) {
     window.frame = 1; //se asegura de que frame se encuentre entre [1,4].
   }
   ruta = "images/frame" + window.frame + ".png";
