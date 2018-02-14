@@ -1,13 +1,13 @@
 # Personal Webpage
-This is a personal webpage I made to describe a little about myself, what I do and how to contacte me.
+This is a personal webpage I made to describe a little about myself, what I do, and how to contact me.
 
 ## Motivation
-This is a project for a webdevelopment class in [Uniandes](www.uniandes.edu.co). The objective is that everyone on the course has a presentation webpage like this one.
+This is a project for a web development class in [Uniandes](www.uniandes.edu.co). The objective is that everyone on the course has a presentation webpage [like this one](https://cawolfkreo.github.io).
 
 ## Getting Started
-There are two ways you can check the website. for the easiest one you only need a web browser, hopefully Mozilla fire fox or Chrome.
+There are two ways you can check the website. The easiest method only requires a web browser (hopefully Mozilla Firefox or Google Chrome).
 
-If you don't want to display the webpage in the easy way, then you can download the contents of this repo on a folder and install an http file server, I recomend two you can use now with npm:
+If you don't want to display the webpage the easy way, then you can download the contents of this repo on a folder and install an http file server. I recommend two that you can use now with npm:
 * http-server:
   ```
   npm install -g http-server
@@ -16,7 +16,7 @@ If you don't want to display the webpage in the easy way, then you can download 
   ```
   npm install -g reload
   ```
-Just run any of those commandsand install one of the servers, that should be enough for preparation.
+Just run any of those commands and install one of the servers. That should be enough for preparation.
 
 ## Deployment
 Again, we have two ways of doing this:
@@ -30,7 +30,7 @@ Again, we have two ways of doing this:
 Camilo Zambrano Votto
 
 ## Contributing
-If anyone wants to give me any help or ideas, you can by making new Issues.
+If anyone wants to give me any help or ideas, you can by making new [Issues](https://github.com/cawolfkreo/cawolfkreo.github.io/issues).
 
 ## License
-The standar MIT license. You can find it [here.](github.com/cawolfkreo/cawolfkreo.github.io/blob/master/LICENSE)
+The standard MIT license. You can find it [here.](github.com/cawolfkreo/cawolfkreo.github.io/blob/master/LICENSE)
