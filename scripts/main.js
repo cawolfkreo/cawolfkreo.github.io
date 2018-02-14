@@ -17,7 +17,8 @@ var animarFavicon = function () {
 };
 
 var repetirAnimacion = function () {
-  elIntervalo = window.setInterval(animarFavicon, 2000);
+  //se evita uno problemas del stack de recursión si se utiliza esto para llamar a la función de animacion.
+  elIntervalo = window.setInterval(animarFavicon, 2000); 
 };
 
 $(".navbar-nav>li>a").click(function () {
