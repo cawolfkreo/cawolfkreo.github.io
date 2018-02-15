@@ -7,7 +7,8 @@ var animarFavicon = function () {
   //Funcion para mantener en animacion constante el favicon de la pagina.
   var ruta;
   /* Assignacion del frame a desplegar */
-  window.frame = ++window.frame;
+  // el operador ++ ya asigna también no es necesario que asigna y aumente
+  ++window.frame;
   if (window.frame > 5) {
     window.frame = 1; //se asegura de que frame se encuentre entre [1,4].
   }
