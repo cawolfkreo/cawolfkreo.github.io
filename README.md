@@ -2,7 +2,7 @@
 This is a personal webpage I made to describe a little about myself, what I do, and how to contact me.
 
 ## Motivation
-This is a project for a web development class in [Uniandes](www.uniandes.edu.co). The objective is that everyone on the course has a presentation webpage [like this one](https://cawolfkreo.github.io).
+This is a project for a web development class in [Uniandes](https://www.uniandes.edu.co). The objective is that everyone on the course has a presentation webpage [like this one](https://cawolfkreo.github.io).
 
 ## Getting Started
 There are two ways you can check the website. The easiest method only requires a web browser (hopefully Mozilla Firefox or Google Chrome).
