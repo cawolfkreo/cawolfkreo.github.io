@@ -5,12 +5,12 @@ This is a personal webpage I made to describe a little about myself, what I do, 
 <details><summary>Expand to see contents</summary>
   <p>
    
-**[Motivation](#motivation)**<br />
-**[Getting Started](#getting-started)**<br />
-**[Deployment](#deployment)**<br />
-**[Author](#author)**<br />
-**[Contributing](#contributing)**<br />
-**[License](#license)**<br />
+* **[Motivation](#motivation)**<br />
+* **[Getting Started](#getting-started)**<br />
+* **[Deployment](#deployment)**<br />
+* **[Author](#author)**<br />
+* **[Contributing](#contributing)**<br />
+* **[License](#license)**<br />
 
 </p>
 </details>
