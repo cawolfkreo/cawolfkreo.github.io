@@ -1,6 +1,20 @@
 # Personal Webpage
 This is a personal webpage I made to describe a little about myself, what I do, and how to contact me.
 
+## Table of Contents
+<details><summary>Expand to see contents</summary>
+  <p>
+   
+* **[Motivation](#motivation)**<br />
+* **[Getting Started](#getting-started)**<br />
+* **[Deployment](#deployment)**<br />
+* **[Author](#author)**<br />
+* **[Contributing](#contributing)**<br />
+* **[License](#license)**<br />
+
+</p>
+</details>
+
 ## Motivation
 This is a project for a web development class in [Uniandes](https://www.uniandes.edu.co). The objective is that everyone on the course has a presentation webpage [like this one](https://cawolfkreo.github.io).
 
